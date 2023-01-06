@@ -12,7 +12,7 @@ print("...El orden de la matriz B es: ", filaB, "*",columnaB,".....")
 matrizA   =  numpy.zeros((filaA,columnaA))
 matrizB   = numpy.zeros((filaB,columnaB))
 matrizResult =numpy.zeros((filaA,columnaA))
-#para poder sumar dos matrices,es necesario que el orden sea exacto 
+#para poder sumar dos matrices,es necesario que el orden sea igual
 if filaA == filaB and columnaA ==columnaB:
     #matrizA
     for i in range(0,filaA):
