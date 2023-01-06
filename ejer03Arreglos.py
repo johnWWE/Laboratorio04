@@ -5,10 +5,12 @@ por teclado.
 Por ejemplo, si defino un array de tamaño 5 y elijo un
 3 en la función, el array contendrá 3, 6, 9, 12, 15.
 Muéstralos por pantalla usando otra función distinta.'''    
-
-tamanArreglo = int(input(u"Ingrese el tamaño del arreglo"))
-multiplo     = int(input(u"Ingrese el número de múltiplos"))
+#definimos los arrays
+tamanArreglo = int(input(u"Ingrese el tamaño del arreglo : "))
+multiplo     = int(input(u"Ingrese el número de múltiplos : "))
+#creando una lista vacia para almacenar los valores dentro de ella
 A = []
+# par que obvie el cero y que vaye hasta el numero indicado
 for i in range (1,tamanArreglo+1):      
     A.append(i*multiplo)
 print(A)
